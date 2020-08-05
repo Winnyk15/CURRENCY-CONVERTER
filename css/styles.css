@@ -59,3 +59,11 @@
   background-color: #A62D1C;
   color: white;
 }
+
+#convertbtn{
+  font-size:30px;
+}
+
+#convertdiv{
+  padding-top: 50px;
+}
