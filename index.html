@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script src="js/jQuery.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
+  <body onload="convertCurrency();">
     <div class="container-fluid">
-      <div class="nav" id=nav">
+      <div class="nav" id="nav">
          <div class="logo"><img src="images/papislogo.png" alt="logo"></div>
          <ul>
            <li><a href="index.html">TRADING</a></li>
@@ -22,33 +23,33 @@
         		<div class="col-md-4">
               <form class="" action="index.html" method="post">
                 <label for="select">Currency I have</label>
-                <select class="browser-default custom-select custom-select-md mb-3" id="pizza">
+                <select class="browser-default custom-select custom-select-md mb-3" id="from" onchange="convertCurrency()">
                       <option value="USD">USD</option>
-                      <option value="KSHS">KSHS</option>
-                      <option value="EURO">EURO</option>
-                      <option value="BRITISH POUND">BRITISH POUND</option>
-                      <option value="INDIAN RUPEE">INDIAN RUPEE</option>
-                      <option value="CANADIAN DOLLAR">CANADIAN DOLLAR</option>
+                      <option value="KSH">KSHS</option>
+                      <option value="EUR">EURO</option>
+                      <option value="GBP">BRITISH POUND</option>
+                      <option value="IDR">INDIAN RUPEE</option>
+                      <option value="CAD">CANADIAN DOLLAR</option>
                     </select>
                          <br>
                     <label for="amount">Amount</label><br>
-                    <input type="number" name="amount" value="Enter Amount">
+                    <input type="number" name="amount" value="Enter Amount" id="fromAmount">
                 </form>
         		</div>
         		<div class="col-md-4">
               <form class="" action="index.html" method="post">
-                <label for="select">Currency I want</label>
-                <select class="browser-default custom-select custom-select-md mb-3" id="pizza">
+                <label for="select" onkeyup="convertCurrency();">Currency I want</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="to" onchange="convertCurrency()">
                       <option value="USD">USD</option>
-                      <option value="KSHS">KSHS</option>
-                      <option value="EURO">EURO</option>
-                      <option value="BRITISH POUND">BRITISH POUND</option>
-                      <option value="INDIAN RUPEE">INDIAN RUPEE</option>
-                      <option value="CANADIAN DOLLAR">CANADIAN DOLLAR</option>
+                      <option value="KSH">KSHS</option>
+                      <option value="EUR">EURO</option>
+                      <option value="GBP">BRITISH POUND</option>
+                      <option value="IDR">INDIAN RUPEE</option>
+                      <option value="CAD">CANADIAN DOLLAR</option>
                     </select>
                          <br>
                     <label for="result">Result</label><br>
-                    <input type="number" name="result" value="Result">
+                    <input type="number" name="result" value="Result" id="toAmount" >
                 </form>
         		</div>
         		<div class="col-md-2">
@@ -137,5 +138,6 @@
        </p>
      </div>
     </div>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
