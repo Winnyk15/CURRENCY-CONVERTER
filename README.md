@@ -9,10 +9,14 @@ By Winnie Kahendah, Teddy Machoka, Albert Ondicho, Tony Ishangu, Victor Siderra.
 # Setup/Installation Requirements:
 
 To have the project up and running you may need:
-To clone or download this project from github  to a local computer.
+
+To clone or download this project from github https://github.com/Winnyk15/CURRENCY-CONVERTER.git to a local computer.
+
 use a text editor like atom, notepad,visual studio code or any other to view the code.
+
 use a web browser to open it in order to have a look and feel of the site.
-you can as well follow this link  to view the online version of this site.
+
+you can as well follow this link https://github.com/Winnyk15/CURRENCY-CONVERTER.git to view the online version of this site.
 
 # Known Bugs:
 
