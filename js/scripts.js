@@ -44,7 +44,6 @@ function convertCurrency(amount, fromCurrency, toCurrency, cb) {
         cb(e);
   });
 }
-
 //uncomment to test
 /*
 convertCurrency(10, 'USD', 'PHP', function(err, amount) {
