@@ -100,7 +100,7 @@ const toAmount = document.getElementById('toAmount');
 const rate = document.getElementById('rate');
 const exchange = document.getElementById('convertbtn');
 
-fromCurrency.addEventListener('change', calculate).value;
+fromCurrency.addEventListener('change', calculate)
 fromAmount.addEventListener('input', calculate);
 toCurrency.addEventListener('change', calculate);
 toAmount.addEventListener('input', calculate);
@@ -116,7 +116,7 @@ function calculate() {
     var fromCurrency = fromCurrency.value;
     var toCurrency = toCurrency.value;
 
-  fetch(`https://api.exchangerate-api.com/v4/latest/${fromCurrency}`)
+  fetch(`https://free.currconv.com/api/v7/convert?q=USD_PHP&compact=ultra&apiKey=450d7b33186ff5463788${fromCurrency}`)
         .then(res => res.json())
         .then(res => {
             var rate = res.rates[toCurrency];
