@@ -1,25 +1,33 @@
 # CURRENCY-CONVERTER
-A currency converter is a software code that is designed to convert one currency into another in order to check its corresponding value. 
+A currency converter is a software code that is designed to convert one currency into another in order to check its corresponding value.
+
 By Winnie Kahendah, Teddy Machoka, Albert Ondicho, Tony Ishangu, Victor Siderra.
-Description
+
+# Description
 
 
-Setup/Installation Requirements:
+# Setup/Installation Requirements:
+
 To have the project up and running you may need:
 To clone or download this project from github  to a local computer.
 use a text editor like atom, notepad,visual studio code or any other to view the code.
 use a web browser to open it in order to have a look and feel of the site.
 you can as well follow this link  to view the online version of this site.
-Known Bugs
+
+# Known Bugs:
+
 The code runs smoothly but feel free to report any bugs experienced as you go through it. 
 
-Technologies Used
+# Technologies Used:
+
 languages used here are HTML,CSS, jquery and bootstrap.
 
-Support and contact details
+# Support and contact details:
+
 In case of any issues or hitches experienced please do not hesitate to inform me through my email siderravictor@gmail.com
 
-License
+# License:
+
 This code is available on the open-source MIT license. See License file attached. Titled LICENSE.txt
 
 MIT License used in order for the improvement of this project by anyone. Copyright (c) 2020 Winnie Kahendah.
