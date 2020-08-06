@@ -7,7 +7,6 @@ By Winnie Kahendah, Teddy Machoka, Albert Ondicho, Tony Ishangu, Victor Siderra.
 Currency is a generally accepted form of payment, usually issued by a government and circulated within its jurisdiction.
 The value of any currency fluctuates constantly in relation to other currencies. The currency exchange market exists as a means of profiting from those fluctuations.
 Many countries accept the U.S. dollar for payment, while others peg their currency value directly to the U.S. dollar.
-A key characteristic of modern money is that it is uniformly worthless in itself. That is, bills are pieces of paper rather than coins made of gold, silver, or bronze. The concept of using paper as a currency may have been developed in China as early as 1000 BC, but the acceptance of a piece of paper in return for something of real value took a long time to catch on. Modern currencies are issued on paper in various denominations, with fractional issues in the form of coins.
 
 # Setup/Installation Requirements:
 
