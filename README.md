@@ -4,7 +4,7 @@ A currency converter is a software code that is designed to convert one currency
 By Winnie Kahendah, Teddy Machoka, Albert Ondicho, Tony Ishangu, Victor Siderra.
 
 # Description
-
+dsddsdssd
 
 # Setup/Installation Requirements:
 
@@ -20,7 +20,7 @@ you can as well follow this link https://github.com/Winnyk15/CURRENCY-CONVERTER.
 
 # Known Bugs:
 
-The code runs smoothly but feel free to report any bugs experienced as you go through it. 
+The code runs smoothly but feel free to report any bugs experienced as you go through it.
 
 # Technologies Used:
 
