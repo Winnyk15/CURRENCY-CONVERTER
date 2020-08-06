@@ -4,7 +4,7 @@ A currency converter is a software code that is designed to convert one currency
 By Winnie Kahendah, Teddy Machoka, Albert Ondicho, Tony Ishangu, Victor Siderra.
 
 # Description
-dsddsdssd
+
 
 # Setup/Installation Requirements:
 
