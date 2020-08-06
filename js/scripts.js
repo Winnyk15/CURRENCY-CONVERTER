@@ -30,4 +30,4 @@ function calculate() {
         })
 }
 
-calculate()
+// calculate()
