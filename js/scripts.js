@@ -29,5 +29,3 @@ function calculate() {
             to_ammountEl.value = (from_ammountEl.value * rate).toFixed(2);
         })
 }
-
-calculate()
