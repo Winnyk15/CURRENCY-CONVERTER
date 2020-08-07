@@ -4,7 +4,9 @@ A currency converter is a software code that is designed to convert one currency
 By Winnie Kahendah, Teddy Machoka, Albert Ondicho, Tony Ishangu, Victor Siderra.
 
 # Description
-
+Currency is a generally accepted form of payment, usually issued by a government and circulated within its jurisdiction.
+The value of any currency fluctuates constantly in relation to other currencies. The currency exchange market exists as a means of profiting from those fluctuations.
+Many countries accept the U.S. dollar for payment, while others peg their currency value directly to the U.S. dollar.
 
 # Setup/Installation Requirements:
 
