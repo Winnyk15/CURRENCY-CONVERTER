@@ -28,4 +28,10 @@ function calculate() {
             rateEl.innerText = `1 ${from_currency} = ${rate} ${to_currency}`
             to_ammountEl.value = (from_ammountEl.value * rate).toFixed(2);
         })
+<<<<<<< HEAD
 }
+=======
+}
+
+// calculate()
+>>>>>>> b3d36ecdb682229033c12cac66f677b4522bf432
